@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cycles"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Mikhailov <mikhailov.ivan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gsdc = {git = "https://github.com/IvanMikhailovIMCRAS/gsdc.git"}
+black = "^24.3.0"
+isort = "^5.13.2"
+mypy = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
